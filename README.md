@@ -56,7 +56,9 @@ After that, if the month has been backed up (a new monthly folder was created) t
 
 ### 📁 Create an exe file
 
-If you want to create an executable file for the application, make sure you have a recent version of Python 3 installed on your machine, fork that repository and follow the steps below:
+If you don't want to create an executable file, go to the ***dist*** folder of this repository and look for the file called ***app.exe***.
+
+If you want to create an executable file for the application, make sure you have a recent version of Python 3 installed on your machine, fork that repository, and follow the steps below:
 
 pip install customtkinter  
 pip install ctkmessagebox  
@@ -66,7 +68,7 @@ To find out where customtkinter and CTkMessageBox were installed on your machine
 *pip show customtkinter* and *pip show ctkmessagebox*
 
 To create the executable run:  
-pyinstaller --noconfirm --onedir --windowed --add-data "<your-path-to-customtkinter>/customtkinter;customtkinter/" --add-data "<your-path-to-ctkmessagebox>/CTkMessagebox;CTkMessagebox/" --add-data "<your-path-to-assetsFolder>/assets;assets/" --icon "assets\app-icon.ico" "app.py"
+pyinstaller --noconfirm --onedir --windowed --add-data "'your-path-to-customtkinter'/customtkinter;customtkinter/" --add-data "'your-path-to-ctkmessagebox'/CTkMessagebox;CTkMessagebox/" --add-data "'your-path-to-assetsFolder'/assets;assets/" --icon "assets\app-icon.ico" "app.py"
 
 🎉 **That is all!  
 😁 Thanks for reading.**
