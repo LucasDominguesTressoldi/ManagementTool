@@ -1,4 +1,4 @@
-# CustomersManagementTool 🗃️
+# ManagementTool 🗃️
 
 **An application that I developed while working freelance for a tutoring school. The application is capable of managing students and teachers, as well as registering them, checking attendance in classes, etc.**
 
